@@ -7,7 +7,7 @@ NOTE: Please use a google maps API key of your own for completion of the demo. T
 `npm run start`
 
 
-This is an accumulation of several new features / technologies I've put together to create an editable address form, built on top of the amazing [redux-form](https://github.com/erikras/redux-form):
+This is an accumulation of several new features / technologies I've put together to create a real time editable form with autocompete address lookup, built on top of the amazing [redux-form](https://github.com/erikras/redux-form):
 
 Features included from redux-form are:
 - Reinitialisation
@@ -27,4 +27,3 @@ Also included:
 TODOs
 - Move remaining functions where possible to redux actions / reselect
 - Look to add a node server with fs support and use fs for CSV upload.
-
