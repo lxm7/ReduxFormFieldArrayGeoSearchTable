@@ -1,0 +1,41 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "allowImportExportEverywhere": true,
+  },
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true,
+  },
+  "plugins": [
+    "react",
+  ],
+  "extends": [
+    "airbnb",
+  ],
+  "settings": {
+    "tabWidth": 4,
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.config.js",
+      },
+    },
+  },
+  "rules": {
+    "indent": [2, 4],
+    "react/jsx-indent": [2, 4],
+    "react/jsx-indent-props": [2, 4],
+    "react/jsx-boolean-value": [0],
+    "semi": ["warn", "never"],
+    "react/jsx-equals-spacing": [2, "always"],
+    "import/no-extraneous-dependencies": 0,
+    "padded-blocks": ["error", "never"],
+    "max-len": ["error", 150],
+    "arrow-parens": ["error", "always"],
+    "import/extensions": 0,
+    "jsx-quotes": [2, "prefer-single"],
+    "no-underscore-dangle": 0,
+    "max-lines": [1, 180],
+  },
+}

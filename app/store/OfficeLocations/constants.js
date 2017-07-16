@@ -1,0 +1,7 @@
+export const GET_OFFICES = 'officeLocations/GET_OFFICES'
+export const GET_OFFICE_LOCATIONS = 'officeLocations/GET_OFFICE_LOCATIONS'
+export const GET_OFFICE_LOCATIONS_REQUEST = 'officeLocations/GET_OFFICE_LOCATIONS_REQUEST'
+export const GET_OFFICE_LOCATIONS_SUCCESS = 'officeLocations/GET_OFFICE_LOCATIONS_SUCCESS'
+export const CHANGE_ACTIVE_COUNTRY = 'officeLocations/CHANGE_ACTIVE_COUNTRY'
+export const SAVE_OFFICE_LOCATIONS = 'officeLocations/SAVE_OFFICE_LOCATIONS'
+
