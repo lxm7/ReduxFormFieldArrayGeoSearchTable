@@ -1,5 +1,12 @@
 # redux-form-reluxe
 
+NOTE: Please use a google maps API key of your own for completion of the demo. Thanks.
+
+`npm i`
+
+`npm run start`
+
+
 This is an accumulation of several new features / technologies I've put together to create an editable address form, built on top of the amazing [redux-form](https://github.com/erikras/redux-form):
 
 Features included from redux-form are:
@@ -21,6 +28,3 @@ TODOs
 - Move remaining functions where possible to redux actions / reselect
 - Look to add a node server with fs support and use fs for CSV upload.
 
-`npm i`
-
-`npm run start`
