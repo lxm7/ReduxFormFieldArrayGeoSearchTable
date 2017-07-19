@@ -1,4 +1,4 @@
-# Redux Form Field Array Complete 
+# Redux Form Field Array Complete (with address lookup, file upload and id generator)
 
 NOTE: Please use a google maps API key of your own for completion of the demo. Thanks.
 
@@ -7,7 +7,7 @@ NOTE: Please use a google maps API key of your own for completion of the demo. T
 `npm run start`
 
 
-This is an accumulation of several new features / technologies I've put together to create a real time editable form with autocompete address lookup, built on top of the amazing [redux-form](https://github.com/erikras/redux-form):
+This is an accumulation of several features / technologies I've put together to create a real time editable form with autocompete address lookup, built on top of [redux-form](https://github.com/erikras/redux-form):
 
 Features included from redux-form are:
 - Reinitialisation
@@ -25,5 +25,6 @@ Also included:
 - Reselect for nested, derived and memoized selectors from state slices.
 
 TODOs
+- Make CSV not override existing rows
 - Move remaining functions where possible to redux actions / reselect
 - Look to add a node server with fs support and use fs for CSV upload.
