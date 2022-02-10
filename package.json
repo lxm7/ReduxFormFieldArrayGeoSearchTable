@@ -30,7 +30,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "node-sass-json-importer": "^3.0.2",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
