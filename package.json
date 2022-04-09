@@ -51,7 +51,7 @@
     "intl-locales-supported": "^1.0.0",
     "jest": "^24.8.0",
     "material-ui": "^0.17.4",
-    "moment": "^2.18.1",
+    "moment": "^2.29.2",
     "path": "^0.12.7",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
